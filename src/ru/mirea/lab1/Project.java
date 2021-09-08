@@ -4,9 +4,11 @@ import java.lang.*;
 
 public class Project {
     public static void main(String[] args){
-        Shape a1 = new Circle();
-
-        a1.getArea();
-        System.out.println(a1);
+        Movable p = new MovableCircle(10,10,5,5,30);
+        System.out.println(p);
+        p.moveDown();
+        p.moveDown();
+        p.moveDown();
+        System.out.println(p);
     }
 }

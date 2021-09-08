@@ -121,12 +121,10 @@ class Square extends Rectangle{
     public void setSide(double side){
         length = width = side;
     }
-    public void setWidth(double side){
-        width = side;
+    public double getArea(){
+        return width*length;
     }
-    public void setLength(double side){
-        length = side;
-    }
+    public double getPerimeter(){ return 4*length; }
     public String toString(){
         return "Square: \n"+
                 "Side: "+width+"\nColor: "+color+"\nFilled: "+filled;
