@@ -1,4 +1,4 @@
-package ru.mirea.lab1;
+package lab2;
 
 import java.lang.*;
 import java.util.Scanner;
@@ -11,6 +11,11 @@ public class Author {
         name = n;
         email = m;
         gender = g;
+    }
+    public Author(){
+        name = "KLAH";
+        email = "KAr";
+        gender = 'F';
     }
     public String getName(){
        return "Name: "+name+'\n';
