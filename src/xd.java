@@ -1,5 +1,5 @@
 
 
-public class nbnbm]]kljlkjlkxd {
+public class xd {
 
 }
