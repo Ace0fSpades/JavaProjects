@@ -37,6 +37,7 @@ public class Human {
         this.Left_leg = Right_leg;
     }
     public void getHuman(){
+        System.out.println("Weight: "+weight+"| Heigth: "+height);
         System.out.println("Head: ");
         Golova.get();
         System.out.println("Hands: ");
