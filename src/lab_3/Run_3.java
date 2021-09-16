@@ -10,7 +10,9 @@ public class Run_3 {
        // System.out.println(c);
        // England e = new England("Karl",4);
        // System.out.println(e);
-        Sofa f = new Sofa("wood",5000);
-        System.out.println(f);
+        //Sofa f = new Sofa("wood",5000);
+       // System.out.println(f);
+        FurnitureShop a = new FurnitureShop();
+        a.get_list();
     }
 }
