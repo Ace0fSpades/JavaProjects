@@ -5,7 +5,8 @@ import java.util.*;
 
 public class Run {
     public static void main(String[] args){
-        Random_gen();
+       // Random_gen();
+        Harmony();
 
     }
 
@@ -54,7 +55,7 @@ public class Run {
         System.out.println("Harmony: ");
         float sum = 0;
         for(int i = 1; i<11;i++){
-            System.out.println((float)1/i);
+            System.out.println(("1/"+i));
             sum+=((float)1/i);
         }
         System.out.println("Sum: "+sum);
