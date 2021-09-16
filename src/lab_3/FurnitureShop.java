@@ -1,5 +1,7 @@
 package lab_3;
 
+import java.util.Scanner;
+
 public class FurnitureShop {
     private Sofa[] arr_s = new Sofa[3];
     private Table[] arr_t = new Table[3];
@@ -42,6 +44,58 @@ public class FurnitureShop {
                     break;
             }
         }
+        }
+    }
+    public void sell_item(String type){
+
+        Scanner sc = new Scanner(System.in);
+        switch(type){
+            case "Sofa":
+                System.out.println("Select number[1-3]");
+                int tmp = sc.nextInt();
+                switch(tmp){
+                    case 1: tmp--;
+                    arr_s[tmp].sold();
+                    break;
+                    case 2: tmp--;
+                    arr_s[tmp].sold();
+                    break;
+                    case 3: tmp--;
+                    arr_s[tmp].sold();
+                    break;
+                }
+                break;
+            case "Table":
+                System.out.println("Select number[1-3]");
+                int tmp_2 = sc.nextInt();
+                switch(tmp_2){
+                    case 1: tmp_2--;
+                        arr_t[tmp_2].sold();
+                        break;
+                    case 2: tmp_2--;
+                        arr_t[tmp_2].sold();
+                        break;
+                    case 3: tmp_2--;
+                        arr_t[tmp_2].sold();
+                        break;
+                }
+                break;
+            case "Chair":
+                System.out.println("Select number[1-3]");
+                int tmp_3 = sc.nextInt();
+                switch(tmp_3){
+                    case 1: tmp_3--;
+                        arr_c[tmp_3].sold();
+                        break;
+                    case 2: tmp_3--;
+                        arr_c[tmp_3].sold();
+                        break;
+                    case 3: tmp_3--;
+                        arr_c[tmp_3].sold();
+                        break;
+                }
+                break;
+
         }
     }
 }

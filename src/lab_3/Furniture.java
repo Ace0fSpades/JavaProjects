@@ -31,6 +31,10 @@ public abstract class Furniture {
     public final String toString(){
         return "Type: "+type+"\nMaterial: "+material+"\nPrice: "+price;
     }
+    public final void sold(){
+        material = "Sold";
+        price = 0;
+    }
 
 }
 

@@ -1,5 +1,7 @@
 package lab_3;
 
+import java.util.Scanner;
+
 public class Run_3 {
     public static void main(String[] args){
        // Pan a = new Pan("marble","Pan","Tefal");
@@ -13,6 +15,10 @@ public class Run_3 {
         //Sofa f = new Sofa("wood",5000);
        // System.out.println(f);
         FurnitureShop a = new FurnitureShop();
+        String type;
+        Scanner sc = new Scanner(System.in);
+        type = sc.nextLine();
+        a.sell_item(type);
         a.get_list();
     }
 }
