@@ -1,15 +1,12 @@
 package task2;
 
+
 import java.lang.*;
 
 public class Test {
     public static void main(String[] args){
-        Movable p = new MovableCircle(10,10,5,5,30);
-        System.out.println(p);
-        p.moveDown();
-        p.moveDown();
-        p.moveDown();
-        System.out.println(p);
+        Shape d = new Shape("Circle",5);
+        System.out.println(d);
         Ball a = new Ball();
         System.out.println(a);
         Book b = new Book();
