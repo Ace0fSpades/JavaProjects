@@ -18,6 +18,7 @@ public class Test {
         String type;
         Scanner sc = new Scanner(System.in);
         type = sc.nextLine();
+        a.get_list();
         a.sell_item(type);
         a.get_list();
     }

@@ -5,12 +5,12 @@ import java.util.*;
 
 public class Run {
     public static void main(String[] args){
-        SumCycle_for(); // цикл for
-        SumCycle_while(); // цикл while
-        SumCycle_do_while(); // цикл do-while
-        Args_return(); // вывод аргументов командной строки
-        Random_gen(); // массив случайных чисел
-        Harmony(); // гармонческий ряд
+       // SumCycle_for(); // цикл for
+       // SumCycle_while(); // цикл while
+        //SumCycle_do_while(); // цикл do-while
+        //Args_return(); // вывод аргументов командной строки
+        //Random_gen(); // массив случайных чисел
+        //Harmony(); // гармонческий ряд
         Factorial(); // факториал
 
     }
