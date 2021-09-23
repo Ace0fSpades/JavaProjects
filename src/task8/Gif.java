@@ -26,6 +26,7 @@ public class Gif extends JFrame {
         controls.setLayout(new FlowLayout());
         pictureLabel = new JLabel(new ImageIcon("C:\\Users\\sylva\\IdeaProjects\\JavaProjects\\src\\task8\\icon.gif"));
         controls.add(pictureLabel);
+
     }
 
     public static void main(String[] args) {
