@@ -6,12 +6,12 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Image extends JFrame {
+public class Image_gen extends JFrame {
 
     private JLabel pictureLabel;
     private Container controls;
 
-    public Image() {
+    public Image_gen() {
         super("window");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
@@ -29,7 +29,7 @@ public class Image extends JFrame {
     }
 
     public static void main(String[] args) {
-        Gif w = new Gif();
+        Image_gen w = new Image_gen();
         w.setVisible(true);
     }
 }
