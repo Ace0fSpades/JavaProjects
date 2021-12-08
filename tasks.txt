@@ -1,0 +1,14 @@
+task17: перечисления enum
+task18: try,catch,throw,finally
+task19: пользовательские исключения
+task20: date/time
+task21: дженерик <> <string>..
+task22: Factory паттерн, шаблон
+task23: hashCode()
+task24: регулярные выражения(вывод консольный, граф сообщений)
+task25: паттерн декоратор
+task26: паттерн стратегия
+
+task22+17
+task18+19
+task21+24
